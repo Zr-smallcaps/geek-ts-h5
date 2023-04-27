@@ -1,0 +1,15 @@
+@import '~@scss/hairline.scss';
+.app {
+	height: 100%;
+	@include hairline(right, green);
+}
+:root:root {
+	--adm-color-primary: pink;
+}
+.icon {
+	width: 1em;
+	height: 1em;
+	vertical-align: -0.15em;
+	fill: currentColor;
+	overflow: hidden;
+}
