@@ -1,0 +1,14 @@
+.root {
+	width: 100%;
+}
+:global {
+	.ramdon {
+		width: 100px;
+		height: 100px;
+		// color: pink;
+		//	background-color: pink;
+	}
+	.adm-form {
+		margin-top: 100px;
+	}
+}

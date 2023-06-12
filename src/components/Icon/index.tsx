@@ -10,7 +10,7 @@ function Icon({ className, onclick, type }: IconInfo) {
 	return (
 		<div>
 			<svg onClick={onclick} className={classNames('icon', className)} aria-hidden="true">
-				<use xlinkHref="#icon-youwangonglve"></use>
+				<use xlinkHref={'#' + type}></use>
 			</svg>
 		</div>
 	)

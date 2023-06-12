@@ -1,11 +1,10 @@
 import React from 'react'
+import { useState } from 'react'
+
 import styles from './index.module.scss'
 function Home() {
-	return (
-		<div className={styles.root}>
-			<div className="ramdon"></div>
-		</div>
-	)
+	console.log('456789')
+	return <div className={styles.root}>home</div>
 }
 
 export default Home
